@@ -1,0 +1,3 @@
+/home/matoslinux/sdl-learning/build/CMakeFiles/programa.dir
+/home/matoslinux/sdl-learning/build/CMakeFiles/edit_cache.dir
+/home/matoslinux/sdl-learning/build/CMakeFiles/rebuild_cache.dir

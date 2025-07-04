@@ -1,0 +1,5 @@
+make things like graphics, sound, keyboards, joysticks -> API (Application Programmer's Interface)
+
+it is a class about configuration
+I already did this no my system
+
