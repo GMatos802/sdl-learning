@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/programa.dir/src/main.cpp.o -o programa  /usr/lib/x86_64-linux-gnu/libSDL2.so 
+/usr/bin/c++ CMakeFiles/programa.dir/src/class2.cpp.o -o programa  /usr/lib/x86_64-linux-gnu/libSDL2.so 

@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/matoslinux/sdl-learning/build",
-  "command": "/usr/bin/c++  -isystem /usr/include/SDL2  -o CMakeFiles/programa.dir/src/main.cpp.o -c /home/matoslinux/sdl-learning/src/main.cpp",
-  "file": "/home/matoslinux/sdl-learning/src/main.cpp",
-  "output": "CMakeFiles/programa.dir/src/main.cpp.o"
-}
-]

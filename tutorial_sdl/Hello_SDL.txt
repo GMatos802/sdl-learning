@@ -3,3 +3,35 @@ make things like graphics, sound, keyboards, joysticks -> API (Application Progr
 it is a class about configuration
 I already did this no my system
 
+how to gettin a window to pop up
+
+o SDL PRECISA do tipo int main(int argc, int char* args[]) de main, se nao vai dar pau
+outros tipos -> "undefined reference to main"
+
+depois de declarar a janela e a superficie da tela, nos inicializamos o SDL
+nao posso chamar nenhuma função do SDL sem iniciar o SDL antes
+
+apenas passar SDL_INIT_VIDEO na flag do init porque aqui eu só quero saber sobre o subsistema de video do SDL
+
+erro no SDL -> retorna -1
+queremos que esse erro seja printado na tela (obviamente) para saber trata-lo
+
+sdl inicializado -> queremos criar uma janela usando SDL_CreateWindow, o primeiro argumento passa o "nome" da janela
+
+os proximos 2 argumentos definem o x e o y em que a janela é criada, SDL_WINDOWPOS_UNDEFINED -> nao ligamos onde ela é criada
+
+os proximos 2 argumentos definem a largura e altura da janela
+
+o ultimo argumento é a flag de criação -> SDL_WINDOW_SHOWN -> faz com que a janela esteja a mostra quando for criada
+
+se der erro a SDL_CreateWindow vai retornar NULL
+
+janela criada com sucesso, agora nos queremos nossa window surface -> SDL_GetWindowSurface
+nao é porque tu desenhou algo na superficie da tela que tu vai ver isso aparecendo
+depois de fazer meu drawing eu preciso dar um update na janela -> SDL_UpdateWindowSurface
+
+criamos a janela -> fill it, and update it -> vamos ver a window flash for a second an then close
+
+para manter a janela sem desaparecer, temos uma linha de codigo "hacky"
+
+depois disso tudo, a janela é destruida e sua memoria é liberada
