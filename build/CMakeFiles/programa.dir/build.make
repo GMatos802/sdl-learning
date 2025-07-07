@@ -69,28 +69,28 @@ include CMakeFiles/programa.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/programa.dir/flags.make
 
-CMakeFiles/programa.dir/src/class2.cpp.o: CMakeFiles/programa.dir/flags.make
-CMakeFiles/programa.dir/src/class2.cpp.o: /home/matoslinux/sdl-learning/src/class2.cpp
-CMakeFiles/programa.dir/src/class2.cpp.o: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matoslinux/sdl-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/programa.dir/src/class2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/class2.cpp.o -MF CMakeFiles/programa.dir/src/class2.cpp.o.d -o CMakeFiles/programa.dir/src/class2.cpp.o -c /home/matoslinux/sdl-learning/src/class2.cpp
+CMakeFiles/programa.dir/src/class3.cpp.o: CMakeFiles/programa.dir/flags.make
+CMakeFiles/programa.dir/src/class3.cpp.o: /home/matoslinux/sdl-learning/src/class3.cpp
+CMakeFiles/programa.dir/src/class3.cpp.o: CMakeFiles/programa.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matoslinux/sdl-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/programa.dir/src/class3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/class3.cpp.o -MF CMakeFiles/programa.dir/src/class3.cpp.o.d -o CMakeFiles/programa.dir/src/class3.cpp.o -c /home/matoslinux/sdl-learning/src/class3.cpp
 
-CMakeFiles/programa.dir/src/class2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/programa.dir/src/class2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matoslinux/sdl-learning/src/class2.cpp > CMakeFiles/programa.dir/src/class2.cpp.i
+CMakeFiles/programa.dir/src/class3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/programa.dir/src/class3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matoslinux/sdl-learning/src/class3.cpp > CMakeFiles/programa.dir/src/class3.cpp.i
 
-CMakeFiles/programa.dir/src/class2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/programa.dir/src/class2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matoslinux/sdl-learning/src/class2.cpp -o CMakeFiles/programa.dir/src/class2.cpp.s
+CMakeFiles/programa.dir/src/class3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/programa.dir/src/class3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matoslinux/sdl-learning/src/class3.cpp -o CMakeFiles/programa.dir/src/class3.cpp.s
 
 # Object files for target programa
 programa_OBJECTS = \
-"CMakeFiles/programa.dir/src/class2.cpp.o"
+"CMakeFiles/programa.dir/src/class3.cpp.o"
 
 # External object files for target programa
 programa_EXTERNAL_OBJECTS =
 
-programa: CMakeFiles/programa.dir/src/class2.cpp.o
+programa: CMakeFiles/programa.dir/src/class3.cpp.o
 programa: CMakeFiles/programa.dir/build.make
 programa: /usr/lib/x86_64-linux-gnu/libSDL2.so
 programa: CMakeFiles/programa.dir/link.txt

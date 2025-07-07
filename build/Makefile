@@ -129,29 +129,29 @@ programa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/programa.dir/build.make CMakeFiles/programa.dir/build
 .PHONY : programa/fast
 
-src/class2.o: src/class2.cpp.o
-.PHONY : src/class2.o
+src/class3.o: src/class3.cpp.o
+.PHONY : src/class3.o
 
 # target to build an object file
-src/class2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/programa.dir/build.make CMakeFiles/programa.dir/src/class2.cpp.o
-.PHONY : src/class2.cpp.o
+src/class3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/programa.dir/build.make CMakeFiles/programa.dir/src/class3.cpp.o
+.PHONY : src/class3.cpp.o
 
-src/class2.i: src/class2.cpp.i
-.PHONY : src/class2.i
+src/class3.i: src/class3.cpp.i
+.PHONY : src/class3.i
 
 # target to preprocess a source file
-src/class2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/programa.dir/build.make CMakeFiles/programa.dir/src/class2.cpp.i
-.PHONY : src/class2.cpp.i
+src/class3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/programa.dir/build.make CMakeFiles/programa.dir/src/class3.cpp.i
+.PHONY : src/class3.cpp.i
 
-src/class2.s: src/class2.cpp.s
-.PHONY : src/class2.s
+src/class3.s: src/class3.cpp.s
+.PHONY : src/class3.s
 
 # target to generate assembly for a file
-src/class2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/programa.dir/build.make CMakeFiles/programa.dir/src/class2.cpp.s
-.PHONY : src/class2.cpp.s
+src/class3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/programa.dir/build.make CMakeFiles/programa.dir/src/class3.cpp.s
+.PHONY : src/class3.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... programa"
-	@echo "... src/class2.o"
-	@echo "... src/class2.i"
-	@echo "... src/class2.s"
+	@echo "... src/class3.o"
+	@echo "... src/class3.i"
+	@echo "... src/class3.s"
 .PHONY : help
 
 

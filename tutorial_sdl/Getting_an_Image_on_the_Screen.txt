@@ -1,5 +1,76 @@
 showing images on screen
 ========================
 
+//Start up SDL and creates window
+bool init();
+
+//Loads media
+bool loadMedia();
+
+//Frees media and shuts down SDL
+void close()
+
+//The window we'll be rendering to
+SDL_Window* gWindow = NULL;
+    
+//The surface contained by the window
+SDL_Surface* gScreenSurface = NULL;
+
+//The image we will load and show on the screen
+SDL_Surface* gHelloWorld = NULL;
+
+declarar variaveis globais
+in big programs -> avoid declaring global variables
+
+SDL surface -> is just an image data type that contains the pixels of an image
+along with all data needed to render it
+-> uses CPU to render
+
+pointers to SDL surfaces
+1) dynamically allocating memory to load images
+2) better to reference and image by memory location
+
+sempre inicializar os ponteiros -> declarar NULL imediatamente quando declara-los
+
+bool init() -> inicialização do SDL
+colocamoa a inicializacao do sdl e a criação da janela em sua própria função
+
+queremos agora mostrar imagens dentro da janela 
+get the image inside of the window -> call SDL_GetWindowSurface to grab the surface contained by the window
+
+load media
+-> LoadBMP -> takes in the path of a bmp file and returns the loaded surface
+
+a SDL por si só nao carrega PNG -> preciso de SDL_Image para fazer isso
+
+no final do programa, é bom ter um void close() para liberar recursos e fechar o SDL
+-> clean up
+makes sure to have your pointers point to NULL
+
+estando tudo certinho
+-> SDL_BlitSurface
+what blitting does? -> take a source surface and stamps a copy of it onto the destination surface
+-> primeiro argumento é a source image, terceiro é a destination 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
